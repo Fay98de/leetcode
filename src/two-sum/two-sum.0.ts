@@ -1,5 +1,5 @@
 function twoSum(nums: number[], target: number): number[] {
-  const numsMap = {}
+  const numsMap: Record<number, number[]> = {}
   nums.forEach((n, index) => {
     numsMap[n] = numsMap[n] || []
     numsMap[n].push(index)
@@ -19,6 +19,7 @@ function twoSum(nums: number[], target: number): number[] {
       return aIndexList
     }
   }
+  return []
 }
 
 export default twoSum

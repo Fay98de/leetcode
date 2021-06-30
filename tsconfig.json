@@ -1,14 +1,19 @@
 {
   "compilerOptions": {
+    "strict": true,
     "target": "ES2015",
-    "baseUrl": ".",
     "module": "CommonJS",
+    "baseUrl": ".",
+    "rootDir": "./src",
     "outDir": "./dist",
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true
     // "paths": {
     //   "@/*": ["src/*"]
     // }
   },
-  "include": ["src"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }

@@ -8,6 +8,7 @@ function twoSum(nums: number[], target: number): number[] {
     }
     map.set(num1, i)
   }
+  return []
 }
 
 export default twoSum
