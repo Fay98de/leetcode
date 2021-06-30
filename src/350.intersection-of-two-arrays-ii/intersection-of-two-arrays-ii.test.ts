@@ -4,7 +4,7 @@ import intersect_1 from './intersection-of-two-arrays-ii.1'
 const intersectList = [intersect_0, intersect_1]
 
 intersectList.forEach((intersect, index) => {
-  describe(`[两个数组的交集 II](intersection-of-two-arrays-ii) - ${index}`, () => {
+  describe(`[350.两个数组的交集 II](intersection-of-two-arrays-ii) - ${index}`, () => {
     test('[1, 2, 2, 1], [2, 2] => [2, 2]', () => {
       const received = intersect([1, 2, 2, 1], [2, 2])
       expect(received).toEqual([2, 2])

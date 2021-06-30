@@ -4,7 +4,7 @@ import twoSum_1 from './two-sum.1'
 const twoSumList = [twoSum_0, twoSum_1]
 
 twoSumList.forEach((twoSum, index) => {
-  describe(`[两数之和](two-sum) - ${index}`, () => {
+  describe(`[1.两数之和](two-sum) - ${index}`, () => {
     test('[3, 3], 6 => [0, 1]', () => {
       const received = twoSum([3, 3], 6)
       expect(received).toEqual(expect.arrayContaining([0, 1]))
