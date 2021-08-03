@@ -10,7 +10,7 @@ function swap(array: number[], i: number, j: number) {
  * @param left 左指针，慢指针
  * @param right 右指针，快指针
  */
-function partition_1(array: number[], left: number, right: number) {
+export function partition_1(array: number[], left: number, right: number) {
   const pivotIndex = left
 
   for (let i = left + 1; i <= right; i++) {
@@ -29,7 +29,7 @@ function partition_1(array: number[], left: number, right: number) {
  * @param left 左指针，慢指针
  * @param right 右指针，快指针
  */
-function partition_2(array: number[], left: number, right: number) {
+export function partition_2(array: number[], left: number, right: number) {
   const pivotIndex = right
 
   for (let i = left; i < right; i++) {
@@ -49,7 +49,7 @@ function partition_2(array: number[], left: number, right: number) {
  * @param right 右指针
  * @returns
  */
-function partition_3(array: number[], left: number, right: number) {
+export function partition_3(array: number[], left: number, right: number) {
   const pivot = array[left]
   while (left < right) {
     while (left < right && array[right] > pivot) {
