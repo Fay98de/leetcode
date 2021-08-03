@@ -1,6 +1,6 @@
-import search from './search-in-rotated-sorted-array.0'
+import search_0 from './search-in-rotated-sorted-array.0'
 
-const Functions = [search]
+const Functions = [search_0]
 
 Functions.forEach((search, index) => {
   describe(`[33. 搜索旋转排序数组](search-in-rotated-sorted-array) - ${index}`, () => {

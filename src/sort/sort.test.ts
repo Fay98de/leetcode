@@ -1,8 +1,10 @@
 import sort_0 from './sort.0'
 import sort_1 from './sort.1'
 import sort_2 from './sort.2'
+import sort_3 from './sort.3'
+import sort_4 from './sort.4'
 
-const Functions = [sort_0, sort_1, sort_2]
+const Functions = [sort_0, sort_1, sort_2, sort_3, sort_4]
 
 Functions.forEach((sort, index) => {
   describe(`[排序](sort) - ${index}`, () => {
