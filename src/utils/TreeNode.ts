@@ -13,13 +13,15 @@ class TreeNode {
         nodes[j].left = new TreeNode(arr[i])
         nodes.push(nodes[j].left!)
       }
-      if (arr[i + 1] === null) {
+      i++
+      if (i >= l) break
+      if (arr[i] === null) {
         nodes[j].right = null
       } else {
-        nodes[j].right = new TreeNode(arr[i + 1])
+        nodes[j].right = new TreeNode(arr[i])
         nodes.push(nodes[j].right!)
       }
-      i += 2
+      i++
       j++
     }
     return nodes[0]
