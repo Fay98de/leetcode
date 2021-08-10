@@ -1,3 +1,22 @@
+function levelOrderTraversal(nodes: (TreeNode | null)[], result: (number | null)[][]) {
+  const values = result[result.length - 1]
+  const childNodes: (TreeNode | null)[] = []
+  const childValues: (number | null)[] = []
+  for (let node of nodes) {
+    if (node === null) {
+      values.push(null)
+    } else {
+      values.push(node.val)
+      childNodes.push(node.left)
+      childNodes.push(node.right)
+    }
+  }
+  if (childNodes.length > 0) {
+    result.push(childValues)
+    levelOrderTraversal(childNodes, result)
+  }
+}
+
 class TreeNode {
   static fromArray = function (arr: Array<number | null>) {
     let l = arr.length
@@ -25,6 +44,24 @@ class TreeNode {
       j++
     }
     return nodes[0]
+  }
+
+  static toLevelArray = function (node: TreeNode | null): (number | null)[][] {
+    if (!node) return []
+    const result: (number | null)[][] = [[]]
+    levelOrderTraversal([node], result)
+    result.pop() // The last level is all null
+    return result
+  }
+
+  static toArray = function (node: TreeNode | null): (number | null)[] {
+    const levelArray = TreeNode.toLevelArray(node)
+    let result: (number | null)[] = []
+    result = result.concat(...levelArray)
+    while (result[result.length - 1] === null) {
+      result.pop() // pop null at tail
+    }
+    return result
   }
 
   val: number
