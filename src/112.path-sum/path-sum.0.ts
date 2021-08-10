@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 
 function hasSum(node: TreeNode | null, targetSum: number): boolean {
   if (node === null) return false

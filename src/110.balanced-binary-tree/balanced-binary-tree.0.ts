@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 
 function getHeight(node: TreeNode | null): number {
   if (node === null) return 0

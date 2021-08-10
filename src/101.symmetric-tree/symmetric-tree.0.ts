@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 
 function recursivelyCheck(nodeA: TreeNode | null, nodeB: TreeNode | null): boolean {
   if (nodeA === null && nodeB === null) return true

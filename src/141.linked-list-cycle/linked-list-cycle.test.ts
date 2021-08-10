@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 import hasCycle_0 from './linked-list-cycle.0'
 import hasCycle_1 from './linked-list-cycle.1'
 import hasCycle_2 from './linked-list-cycle.2'

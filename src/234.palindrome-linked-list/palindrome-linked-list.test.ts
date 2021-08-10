@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 import isPalindrome_0 from './palindrome-linked-list.0'
 import isPalindrome_1 from './palindrome-linked-list.1'
 import isPalindrome_2 from './palindrome-linked-list.2'

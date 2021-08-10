@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 
 function isSymmetric(root: TreeNode | null): boolean {
   if (!root) return true

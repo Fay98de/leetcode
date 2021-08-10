@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 import pathSum_0 from './path-sum-ii.0'
 
 const { fromArray } = TreeNode

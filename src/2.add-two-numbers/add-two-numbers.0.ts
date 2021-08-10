@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 
 function add(l1: ListNode | null, l2: ListNode | null, initialValue: number): ListNode | null {
   if (!l1 && !l2 && !initialValue) return null

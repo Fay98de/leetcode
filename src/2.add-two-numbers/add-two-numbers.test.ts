@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 import addTwoNumbers_0 from './add-two-numbers.0'
 
 const { fromArray, toArray } = ListNode

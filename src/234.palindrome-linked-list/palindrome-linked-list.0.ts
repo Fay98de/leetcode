@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 
 function isPalindrome(head: ListNode | null): boolean {
   const nums = []

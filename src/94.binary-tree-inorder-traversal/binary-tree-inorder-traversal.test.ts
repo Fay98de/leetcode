@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 import inorderTraversal_0 from './binary-tree-inorder-traversal.0'
 import inorderTraversal_1 from './binary-tree-inorder-traversal.1'
 

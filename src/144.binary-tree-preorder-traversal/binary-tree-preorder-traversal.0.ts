@@ -2,7 +2,7 @@
  * 递归
  */
 
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 
 function preOrder(node: TreeNode | null, result: number[]) {
   if (node === null) return

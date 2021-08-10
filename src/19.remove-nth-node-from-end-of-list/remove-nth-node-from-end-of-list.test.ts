@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 import removeNthFromEnd_0 from './remove-nth-node-from-end-of-list.0'
 import removeNthFromEnd_1 from './remove-nth-node-from-end-of-list.1'
 

@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 import mergeTwoLists_0 from './merge-two-sorted-lists.0'
 import mergeTwoLists_1 from './merge-two-sorted-lists.1'
 

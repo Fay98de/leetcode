@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 import getIntersectionNode_0 from './intersection-of-two-linked-lists.0'
 import getIntersectionNode_1 from './intersection-of-two-linked-lists.1'
 

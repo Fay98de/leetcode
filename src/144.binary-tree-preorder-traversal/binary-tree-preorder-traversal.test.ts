@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 import preorderTraversal_0 from './binary-tree-preorder-traversal.0'
 import preorderTraversal_1 from './binary-tree-preorder-traversal.1'
 

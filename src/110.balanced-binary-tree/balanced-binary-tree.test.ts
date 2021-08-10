@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 import isBalanced_0 from './balanced-binary-tree.0'
 import isBalanced_1 from './balanced-binary-tree.1'
 

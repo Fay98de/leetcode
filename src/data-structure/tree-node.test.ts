@@ -1,4 +1,4 @@
-import TreeNode from './TreeNode'
+import TreeNode from './tree-node'
 
 const { fromArray, toLevelArray, toArray } = TreeNode
 

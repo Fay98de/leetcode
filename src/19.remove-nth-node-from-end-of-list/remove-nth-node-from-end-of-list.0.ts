@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 
 function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
   const arr: ListNode[] = []

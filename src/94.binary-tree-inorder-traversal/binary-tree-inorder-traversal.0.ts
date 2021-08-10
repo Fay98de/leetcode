@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 
 function inOrder(node: TreeNode | null, result: number[]) {
   if (node === null) return

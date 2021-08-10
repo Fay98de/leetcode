@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 
 function traversal(nodes: TreeNode[], result: number[][]) {
   const values = result[result.length - 1]

@@ -1,4 +1,4 @@
-import ListNode from 'src/utils/ListNode'
+import ListNode from 'src/data-structure/list-node'
 
 /**
  * 哈希存储

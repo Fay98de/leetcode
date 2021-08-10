@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 import invertTree_0 from './invert-binary-tree.0'
 
 const { fromArray, toArray } = TreeNode

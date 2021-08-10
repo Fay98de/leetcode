@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 import postorderTraversal_0 from './binary-tree-postorder-traversal.0'
 import postorderTraversal_1 from './binary-tree-postorder-traversal.1'
 

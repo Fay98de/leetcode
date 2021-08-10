@@ -1,4 +1,4 @@
-import ListNode from '../utils/ListNode'
+import ListNode from '../data-structure/list-node'
 import reverseList_0 from './reverse-linked-list.0'
 
 const { fromArray, toArray } = ListNode

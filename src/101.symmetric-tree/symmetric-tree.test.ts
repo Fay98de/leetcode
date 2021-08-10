@@ -1,4 +1,4 @@
-import TreeNode from '../utils/TreeNode'
+import TreeNode from '../data-structure/tree-node'
 import isSymmetric_0 from './symmetric-tree.0'
 import isSymmetric_1 from './symmetric-tree.1'
 
