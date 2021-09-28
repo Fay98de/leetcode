@@ -1,3 +1,5 @@
+// 迭代
+
 import ListNode from '../data-structure/list-node'
 
 function mergeTwoLists(l1: ListNode | null, l2: ListNode | null): ListNode | null {
