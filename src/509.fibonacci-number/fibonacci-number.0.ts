@@ -1,8 +1,7 @@
 // 动态规划遍历
 
 function fib(n: number): number {
-  if (n === 0) return 0
-  if (n === 1) return 1
+  if (n <= 0) return n
   let num0 = 0
   let num1 = 1
   let num = 0
